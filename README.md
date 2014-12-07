@@ -2,5 +2,6 @@ css-flag
 ========
 
 Drapeaux css<br>
+Représenter un drapeau dans un élèment grace au css
 
-[D�mo](http://polinux.fr/css-flag "Quelques drapeaux")
+[Démo](http://polinux.fr/css-flag "Quelques drapeaux")
