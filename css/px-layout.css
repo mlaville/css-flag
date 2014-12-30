@@ -1,0 +1,68 @@
+header, footer, nav {
+    background-color:#212121;
+    position:fixed;
+    z-index:100;
+}
+header, footer {
+    width:100%;
+}
+
+/* 
+ * header
+ *-----------------------------------------------------------------------------*/
+header {
+    top:0;
+    height:78px;
+}
+header h1, header h3{
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	color:#CC00FF;
+	margin: 1px 2px;
+}
+header h1{
+    font-size:36px;
+	font-weight: 100;
+}
+header h3{
+	font-size: 12px;
+	letter-spacing: 24px;
+	margin-left:24px;
+}
+
+header a {
+	display: inline;
+	margin: 0 12px;
+	float: right;
+}
+
+/* 
+* Footer
+ *-----------------------------------------------------------------------------*/
+footer {
+	background: #ccc none repeat scroll 0pt 50%;
+	height: 15px; 
+	bottom: 0px;
+	text-align: center;
+}
+footer a{
+	margin-right: 18px;
+	font-size: 12px;
+}
+footer a:first-child{
+	margin-right: 18px;
+	font-size: 12px;
+}
+footer img{
+	border-style: none;
+}
+
+/* 
+* corps
+ *-----------------------------------------------------------------------------*/
+#corps {
+	padding: 78px 0 15px;
+/*	height:100%; */
+	top:0;
+	bottom:0;
+}
