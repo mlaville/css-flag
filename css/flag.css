@@ -131,10 +131,16 @@ background: linear-gradient(to bottom, #000099 0%, #000099 11%, #ffffff 11%, #ff
 .ck:before {
 	position:absolute;
 	content:' ';
-	 width: 0; height: 0;
+	 width: 0;
+	 height: 0;
 	 border-top: 1em solid transparent;
 	 border-left: 1.5em solid #00599C;
 	 border-bottom: 1em solid transparent;
+}
+
+.ru {
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 33%,rgba(0,81,186,1) 33%,rgba(0,81,186,1) 66%,rgba(216,30,5,1) 66%,rgba(216,30,5,1) 100%); /* W3C */
+
 }
 
 .cu {
