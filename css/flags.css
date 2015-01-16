@@ -32,6 +32,26 @@ body {
 	background: -ms-linear-gradient(top,  #000000 0%,#000000 31%,#ff0000 33%,#ff0000 68%,#ffcc00 71%,#ffcc00 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #000000 0%, #000000 33%, #ff0000 33%, #ff0000 67%, #ffcc00 67%, #ffcc00 100%); /* W3C */
 }
+.fi {
+	background-color: #fff;
+	height:1.83em;
+}
+.fi:before {
+	position:absolute;
+	content:' ';
+	background-color: #003478;
+	margin-left:0.83em;
+	width:0.5em;
+	height:1.83em;
+}
+.fi:after {
+	position:absolute;
+	content:' ';
+	background-color: #003478;
+	margin-top:0.66em;
+	width:3em;
+	height:0.5em;
+}
 .fr {
 	background: #000c54; /* Old browsers */
 	background: -moz-linear-gradient(left, #000c54 0%, #000c54 33%, #ffffff 33%, #ffffff 67%, #d7073a 67%, #d7073a 100%); /* FF3.6+ */
