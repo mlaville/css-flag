@@ -51,6 +51,13 @@ body {
 			#ff0f21 68%,#ff0f21 100%); /* W3C */
 }
 
+.cg {
+	background: linear-gradient(135deg,  
+		rgba(0,174,66,1) 0%,rgba(0,174,66,1) 42%,
+		rgba(255,210,0,1) 43%,rgba(255,210,0,1) 57%,
+		rgba(244,41,56,1) 58%,rgba(244,41,56,1) 100%);
+}
+
 .de {
 	background: #000000; /* Old browsers */
 	background: linear-gradient(to bottom,  #000 0%, #000 33%, #ff0000 33%, #ff0000 67%, #ffcc00 67%, #ffcc00 100%); /* W3C */
