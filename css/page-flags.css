@@ -1,3 +1,31 @@
 #corps {
 background-color: #aaa;
 }
+
+figure {
+  border: 1px solid #999;
+  margin: 4px;
+  padding: 4px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 5px rgba(50, 50, 50, .5);
+  width: 4em;
+ }
+
+figcaption {
+  border: 2px solid #fff;
+  padding: 2px;
+
+  font-family: Arial, Tahoma, Verdana;
+
+  font-size: .2em;
+  border: none;
+
+  background: transparent;
+
+  word-wrap:normal;
+
+}
+
+.domaine{
+  font-family: Courier;
+}

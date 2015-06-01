@@ -53,9 +53,9 @@ body {
 
 .cg {
 	background: linear-gradient(135deg,  
-		rgba(0,174,66,1) 0%,rgba(0,174,66,1) 42%,
-		rgba(255,210,0,1) 43%,rgba(255,210,0,1) 57%,
-		rgba(244,41,56,1) 58%,rgba(244,41,56,1) 100%);
+		rgba(0,174,66,1) 0%,rgba(0,174,66,1) 40%,
+		rgba(255,210,0,1) 40%,rgba(255,210,0,1) 60%,
+		rgba(244,41,56,1) 60%,rgba(244,41,56,1) 100%);
 }
 
 .de {
@@ -202,7 +202,7 @@ background: linear-gradient(to bottom,
 }
 
 .cu {
-	background: linear-gradient(to bottom, #032563 0%,#032563 20%,#fff 20%,#fff 40%, #032563 40%,#032563 60%, #fff 60%,#fff 80%,#032563 0%,#032563 100%); /* W3C */
+	background: linear-gradient(to bottom, #032563 0%,#032563 20%,#fff 20%,#fff 40%, #032563 40%,#032563 60%, #fff 60%,#fff 80%,#032563 80%,#032563 100%); /* W3C */
 }
 
 .cu:before {
@@ -218,13 +218,17 @@ background: linear-gradient(to bottom,
 	color: #fff;
 	content:"\2605";
 	line-height:2em;
-	margin-left:-1.1em
+	margin-left:.2em
 }
 
 .mg {
 	 width: 2em;
 	border-left : 1em solid #fff;
 background: linear-gradient(to bottom, #CC0C2F 0%,#CC0C2F 50%, #00AE42 50%, #00AE42 100%); /* W3C */
+}
+
+.mu {
+	background: linear-gradient(to bottom, #F12938 0%,#F12938 25%,#16216D 25%,#16216D 50%, #FFD600 50%,#FFD600 75%, #00A353 75%,#00A353 100%); /* W3C */
 }
 
 .ru {
