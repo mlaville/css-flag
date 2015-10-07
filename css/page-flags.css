@@ -1,5 +1,28 @@
-#corps {
+/**
+ * page-flags.css
+ * 
+ * @auteur     marc laville
+ * @Copyleft 2015
+ * @date       07/10/2015
+ * @version    0.2
+ * @revision   $1$
+ *
+ * Page de présentation css-flags
+ * 
+ * A Faire
+ * - 
+ *
+ * Licensed under the GPL license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+main {
 background-color: #aaa;
+overflow-y: scroll;
+}
+
+main a{
+  font-size: .6em;
 }
 
 figure {
